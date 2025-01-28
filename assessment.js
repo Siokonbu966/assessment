@@ -88,11 +88,6 @@ const answers = [
   '###userName###のいいところは優しさです。###userName###の優しい雰囲気や立ち振る舞いに多くの人が癒されています。'
 ];
 
-/**
- * 名前の文字列を渡すと診断結果を返す関数
- * @param {string} userName ユーザの名前
- * @return {string} 診断結果
- */
 function assessment(userName) {
   // 全文字のコード番号を取得してそれを足し合わせる
   let sumOfCharCode = 0;
